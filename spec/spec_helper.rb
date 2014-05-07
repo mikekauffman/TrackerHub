@@ -1,3 +1,8 @@
+File.read('.env').split("\n").each do |line|
+  key, value = line.split('=')
+  ENV[key] = value
+end
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)

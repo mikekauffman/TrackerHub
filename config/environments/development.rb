@@ -1,3 +1,8 @@
+File.read('.env').split("\n").each do |line|
+  key, value = line.split('=')
+  ENV[key] = value
+end
+
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
