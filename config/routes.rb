@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root to: 'welcome#index'
-  get '/projects', to: 'tracker_search#index'
-  get '/projects/:id', to: 'tracker_search#show', as: :project
+  get '/projects', to: 'projects#index'
+  get '/projects/:id', to: 'projects#show', as: :project
 
 end

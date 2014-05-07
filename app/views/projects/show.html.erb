@@ -1,0 +1,14 @@
+<h2>Stories</h2>
+<ul>
+  <% @project_data.each do |story| %>
+      <li><%= story["name"] %></li>
+  <% end %>
+</ul>
+
+<h2>Tracker Comments</h2>
+<ul>
+  <% @story_comments.each do |comment| %>
+        <li><%= comment %></li>
+  <% end %>
+</ul>
+
