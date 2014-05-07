@@ -1,5 +1,5 @@
 <ul>
-  <% @json_data.each do |data| %>
-      <li> <%= data["name"] %></li>
+  <% @json_data.each do |project| %>
+      <li> <%=link_to project["name"], project_path(project["id"]) %></li>
   <% end %>
 </ul>

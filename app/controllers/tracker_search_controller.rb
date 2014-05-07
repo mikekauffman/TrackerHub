@@ -4,4 +4,7 @@ class TrackerSearchController < ApplicationController
     @json_data = TrackerSearch.fetch_projects
   end
 
+  def show
+    @project_data = TrackerSearch.fetch_stories(params[:id])
+  end
 end
