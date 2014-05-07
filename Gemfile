@@ -30,6 +30,8 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
   gem 'launchy', '~> 2.4.2'
+  gem 'vcr', '~> 2.9.0'
+  gem 'webmock', '~> 1.17.4'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
