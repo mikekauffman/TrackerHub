@@ -31,11 +31,9 @@ class Project
       JSON.parse(Project.github_connection.get(url).body)
     end
     @all_comments = []
-    @request_comments_array.each do |request_comments|
-      request_comments.each do |comment|
+    @request_comments_array.flatten.each do |comment|
         @all_comments << comment
       end
-    end
     @all_comments
     else
       [{"body" => "There are no github comments on this project"}]
