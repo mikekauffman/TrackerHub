@@ -9,13 +9,12 @@ require 'rspec/rails'
 require 'rspec/autorun'
 
 VCR.configure do |c|
-  c.allow_http_connections_when_no_cassette = true
+  # c.allow_http_connections_when_no_cassette = true
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock
-  c.before_record do |i|
-    request = i.request
-    request.headers["X-Trackertoken"] = "***********"
-  end
+  c.filter_sensitive_data('<GITHUB_USERNAME>') { ENV['GITHUB_USERNAME'] }
+  c.filter_sensitive_data('<GITHUB_PASSWORD>') { ENV['GITHUB_PASSWORD'] }
+  c.filter_sensitive_data('<TRACKER_TOKEN>') { ENV['TRACKER_ID'] }
 end
 
 # Requires supporting ruby files with custom matchers and macros, etc,

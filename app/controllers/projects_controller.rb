@@ -7,5 +7,6 @@ class ProjectsController < ApplicationController
   def show
     @project_data = Project.fetch_stories(params[:id])
     @story_comments = Project.fetch_comments(params[:id])
+    @github_comments =  Project.fetch_git_comments(params[:id])
   end
 end

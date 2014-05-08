@@ -8,7 +8,15 @@
 <h2>Tracker Comments</h2>
 <ul>
   <% @story_comments.each do |comment| %>
-        <li><%= comment %></li>
+      <li><%= comment %></li>
   <% end %>
 </ul>
+<% if @github_comments != [] %>
+    <h2>GitHub Comments</h2>
+    <ul>
+      <% @github_comments.each do |comment| %>
+          <li><%= comment %></li>
+      <% end %>
+    </ul>
+<% end %>
 

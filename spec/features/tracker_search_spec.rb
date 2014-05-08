@@ -14,4 +14,10 @@ feature 'user can view all tracker projects' do
     end
   end
 
+  scenario 'user can view github comments left on a project' do
+    VCR.use_cassette('github_comment_features') do
+      visit '/projects/1075366'
+      expect(page).to have_content 'This is a test comment on what I would say is a very beautiful commit'
+    end
+  end
 end

@@ -11,7 +11,8 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken: "***********"
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -32,11 +33,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2a7546a0db9a312a96f71788288a7784
+      - aa04a946f3868e9561108eb2de163c90
       X-Runtime:
-      - '0.203057'
+      - '0.202542'
       Date:
-      - Thu, 08 May 2014 15:31:47 GMT
+      - Thu, 08 May 2014 18:09:00 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -96,7 +97,7 @@ http_interactions:
         YmVyIjogNywKICAgICJlbmFibGVfZm9sbG93aW5nIjogdHJ1ZQogIH0sCiAg
         ewogICAgImlkIjogOTY2NDI2LAogICAgImtpbmQiOiAicHJvamVjdCIsCiAg
         ICAibmFtZSI6ICJnU2Nob29sTWFyY2gyMDE0Q3VycmljdWx1bSIsCiAgICAi
-        dmVyc2lvbiI6IDIzNzAsCiAgICAiaXRlcmF0aW9uX2xlbmd0aCI6IDEsCiAg
+        dmVyc2lvbiI6IDIzNzgsCiAgICAiaXRlcmF0aW9uX2xlbmd0aCI6IDEsCiAg
         ICAid2Vla19zdGFydF9kYXkiOiAiTW9uZGF5IiwKICAgICJwb2ludF9zY2Fs
         ZSI6ICIwLDEsMiwzIiwKICAgICJwb2ludF9zY2FsZV9pc19jdXN0b20iOiBm
         YWxzZSwKICAgICJidWdzX2FuZF9jaG9yZXNfYXJlX2VzdGltYXRhYmxlIjog
@@ -235,7 +236,7 @@ http_interactions:
         IDYyMjIyNCwKICAgICJjdXJyZW50X2l0ZXJhdGlvbl9udW1iZXIiOiA0LAog
         ICAgImVuYWJsZV9mb2xsb3dpbmciOiB0cnVlCiAgfQpd
     http_version: 
-  recorded_at: Thu, 08 May 2014 15:31:46 GMT
+  recorded_at: Thu, 08 May 2014 18:08:59 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1047286/stories
@@ -247,7 +248,8 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken: "***********"
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -278,11 +280,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4eba429bc939e1ce81a61307a09e7188
+      - 10d3672c17357a5d8555af28d301213d
       X-Runtime:
-      - '0.037562'
+      - '0.160518'
       Date:
-      - Thu, 08 May 2014 15:31:47 GMT
+      - Thu, 08 May 2014 18:09:00 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -763,7 +765,7 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 15:31:46 GMT
+  recorded_at: Thu, 08 May 2014 18:08:59 GMT
 - request:
     method: get
     uri: https://www.pivotaltracker.com/services/v5/projects/1047286/stories?fields=comments
@@ -775,7 +777,8 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken: "***********"
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -806,11 +809,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6e5ed1aca1ada1958764434013a39bca
+      - ebb9dcdc32efbbea07767845a604d5c1
       X-Runtime:
-      - '0.040011'
+      - '0.149087'
       Date:
-      - Thu, 08 May 2014 15:31:47 GMT
+      - Thu, 08 May 2014 18:09:00 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -1158,5 +1161,1202 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 15:31:46 GMT
+  recorded_at: Thu, 08 May 2014 18:09:00 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1047286/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '75'
+      X-Tracker-Pagination-Total:
+      - '23'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '23'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bacfbf889754c659c52f5b8c8f2f8093
+      X-Runtime:
+      - '0.034518'
+      Date:
+      - Thu, 08 May 2014 18:09:01 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 68381160,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381162,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65488228,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/b5831438826afbe6f67bb49753f56e332d4af26b\n\n[#68381162] Added Heroku staging URL.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "b5831438826afbe6f67bb49753f56e332d4af26b",
+                "commit_type": "github",
+                "created_at": "2014-03-27T19:27:27Z",
+                "updated_at": "2014-03-27T19:27:27Z",
+                "story_id": 68381162
+              }
+            ]
+          },
+          {
+            "id": 68381164,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65488758,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/4e40452b12ae13741b20031e5ad48bd925d621b1\n\n[#68381164] added Heroku production URL\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "4e40452b12ae13741b20031e5ad48bd925d621b1",
+                "commit_type": "github",
+                "created_at": "2014-03-27T19:31:50Z",
+                "updated_at": "2014-03-27T19:31:50Z",
+                "story_id": 68381164
+              }
+            ]
+          },
+          {
+            "id": 68396334,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65519032,
+                "text": "Still not looking good. See screen shot of the repo home page.",
+                "person_id": 1234268,
+                "created_at": "2014-03-28T02:34:51Z",
+                "updated_at": "2014-03-28T02:34:51Z",
+                "story_id": 68396334
+              },
+              {
+                "kind": "comment",
+                "id": 65586204,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/ea8c736822466472d52fa249c717bc14016b19d6\n\n[#68396334] Separated lines in the README.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "ea8c736822466472d52fa249c717bc14016b19d6",
+                "commit_type": "github",
+                "created_at": "2014-03-28T19:13:58Z",
+                "updated_at": "2014-03-28T19:13:58Z",
+                "story_id": 68396334
+              }
+            ]
+          },
+          {
+            "id": 68381170,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65604176,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca\n\n[#68381170] User is able to visit shortened URL and gets redirected to the original URL.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "c911696e613dbe27abbce5b91be59a2bb0ba73ca",
+                "commit_type": "github",
+                "created_at": "2014-03-28T22:44:24Z",
+                "updated_at": "2014-03-28T22:44:24Z",
+                "story_id": 68381170
+              },
+              {
+                "kind": "comment",
+                "id": 65605808,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/d3679ece36c39d810c955cc72dcdcf76c7a4d0ad\n\n[#68381170] We refactored form input in our Capybara test URL to solve the infinite redirect loop.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "d3679ece36c39d810c955cc72dcdcf76c7a4d0ad",
+                "commit_type": "github",
+                "created_at": "2014-03-28T23:14:21Z",
+                "updated_at": "2014-03-28T23:14:21Z",
+                "story_id": 68381170
+              }
+            ]
+          },
+          {
+            "id": 68381166,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65493542,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/f5feebdd5cbdfcdf78a442f02f0cddc8b3d3aadc\n\n[#68381166] Added Gemfile, config, spec. Shows app is up and running.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "f5feebdd5cbdfcdf78a442f02f0cddc8b3d3aadc",
+                "commit_type": "github",
+                "created_at": "2014-03-27T20:13:57Z",
+                "updated_at": "2014-03-27T20:13:57Z",
+                "story_id": 68381166
+              },
+              {
+                "kind": "comment",
+                "id": 65493544,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/d45deb05cc7c6b184a13459df187082ed914532a\n\n[#68381166] User is able to see a text field with placeholder text and a shorten button.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "d45deb05cc7c6b184a13459df187082ed914532a",
+                "commit_type": "github",
+                "created_at": "2014-03-27T20:13:58Z",
+                "updated_at": "2014-03-27T20:13:58Z",
+                "story_id": 68381166
+              },
+              {
+                "kind": "comment",
+                "id": 65519044,
+                "text": "Has this been delivered to staging? If so, please mark as delivered. If not, please complete before starting another story.",
+                "person_id": 1234268,
+                "created_at": "2014-03-28T02:35:50Z",
+                "updated_at": "2014-03-28T02:35:50Z",
+                "story_id": 68381166
+              },
+              {
+                "kind": "comment",
+                "id": 65625692,
+                "text": "Please match the comps as closely as possible",
+                "person_id": 1234268,
+                "created_at": "2014-03-30T14:49:50Z",
+                "updated_at": "2014-03-30T14:49:50Z",
+                "story_id": 68381166
+              }
+            ]
+          },
+          {
+            "id": 68381168,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65504530,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/fb44f0d14404c08f964548a5652daf93ccbd6532\n\n[#68381168] A URL entered on the homepage to shorten returns a page with the original url next to a shortened URL.\n\nSigned-off-by: Mike Kauffman <mike.a.kauffman@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "fb44f0d14404c08f964548a5652daf93ccbd6532",
+                "commit_type": "github",
+                "created_at": "2014-03-27T21:56:37Z",
+                "updated_at": "2014-03-27T21:56:37Z",
+                "story_id": 68381168
+              },
+              {
+                "kind": "comment",
+                "id": 65625696,
+                "text": "Please match the comps as closely as possible",
+                "person_id": 1234268,
+                "created_at": "2014-03-30T14:50:10Z",
+                "updated_at": "2014-03-30T14:50:10Z",
+                "story_id": 68381168
+              },
+              {
+                "kind": "comment",
+                "id": 65625706,
+                "text": "Also please use the URL structure outlined in the comps",
+                "person_id": 1234268,
+                "created_at": "2014-03-30T14:50:48Z",
+                "updated_at": "2014-03-30T14:50:48Z",
+                "story_id": 68381168
+              },
+              {
+                "kind": "comment",
+                "id": 65857654,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/022f4c186f8ce7faac97f7a2609ed406aaa3927a\n\n[#68381168] Fixed stat page to match comps.\n\nChanged flex-items to tables, fixed body font.\n\nSigned-off-by: Kaylee Edmonson <kaylee.edmonson@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "022f4c186f8ce7faac97f7a2609ed406aaa3927a",
+                "commit_type": "github",
+                "created_at": "2014-04-01T22:30:23Z",
+                "updated_at": "2014-04-01T22:30:23Z",
+                "story_id": 68381168
+              },
+              {
+                "kind": "comment",
+                "id": 65860292,
+                "text": "Commit by Gus King\nhttps://github.com/gusk/url-shortener/commit/71a0d7117a372653726fcfc8ca40aa55f3451da0\n\n[#68381168] Moved form and stats table to match comps.\n\nSigned-off-by: Kaylee Edmonson <kaylee.edmonson@gmail.com>",
+                "person_id": 1256898,
+                "commit_identifier": "71a0d7117a372653726fcfc8ca40aa55f3451da0",
+                "commit_type": "github",
+                "created_at": "2014-04-01T23:04:16Z",
+                "updated_at": "2014-04-01T23:04:16Z",
+                "story_id": 68381168
+              }
+            ]
+          },
+          {
+            "id": 68381178,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65966260,
+                "text": "Forgot to attach story id to commit message. \nhttps://github.com/gusk/url-shortener/commit/ebad241f57cdf06c40c5986e7f9d56afe266718c",
+                "person_id": 1256898,
+                "created_at": "2014-04-02T22:05:32Z",
+                "updated_at": "2014-04-02T22:05:32Z",
+                "story_id": 68381178
+              }
+            ]
+          },
+          {
+            "id": 68381176,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65966286,
+                "text": "Wrong story, meant to deliver the other one.",
+                "person_id": 1256898,
+                "created_at": "2014-04-02T22:05:53Z",
+                "updated_at": "2014-04-02T22:06:26Z",
+                "story_id": 68381176
+              }
+            ]
+          },
+          {
+            "id": 68381158,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381172,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381180,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68672666,
+                "text": "this is a test comment",
+                "person_id": 1256926,
+                "created_at": "2014-05-07T20:30:21Z",
+                "updated_at": "2014-05-07T20:30:21Z",
+                "story_id": 68381180
+              }
+            ]
+          },
+          {
+            "id": 68381182,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 65471924,
+                "text": "See if you can work with a refactoring similar to what Cory showed in class.",
+                "person_id": 78584,
+                "created_at": "2014-03-27T00:00:00Z",
+                "updated_at": "2014-03-27T17:44:04Z",
+                "story_id": 68381182
+              }
+            ]
+          },
+          {
+            "id": 68381184,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381186,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381188,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68672782,
+                "text": "this is another test comment",
+                "person_id": 1256926,
+                "created_at": "2014-05-07T20:32:25Z",
+                "updated_at": "2014-05-07T20:32:25Z",
+                "story_id": 68381188
+              }
+            ]
+          },
+          {
+            "id": 68381190,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381192,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381194,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381196,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381198,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381200,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 68381202,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:00 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/b5831438826afbe6f67bb49753f56e332d4af26b/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4964'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/b5831438826afbe6f67bb49753f56e332d4af26b/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A05:342B0B6:536BC83D
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 6d7de9e645814cac34ea2a8d72ba3141
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:00 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/4e40452b12ae13741b20031e5ad48bd925d621b1/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4963'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/4e40452b12ae13741b20031e5ad48bd925d621b1/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A03:A1BE8C0:536BC83D
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 62a1303ae95931e56e387e87d354bb24
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:01 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/ea8c736822466472d52fa249c717bc14016b19d6/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4962'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/ea8c736822466472d52fa249c717bc14016b19d6/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A02:74E1C34:536BC83E
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 03d91026ad8428f4d9966d7434f9d82e
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:01 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/c911696e613dbe27abbce5b91be59a2bb0ba73ca/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4961'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"c9338b43cee6a7598944994ce013e0d9"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A03:A1BE9D7:536BC83E
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 03d91026ad8428f4d9966d7434f9d82e
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5861752","html_url":"https://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca#commitcomment-5861752","id":5861752,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":8,"line":8,"path":"app.rb","commit_id":"c911696e613dbe27abbce5b91be59a2bb0ba73ca","created_at":"2014-04-01T02:25:41Z","updated_at":"2014-04-01T02:25:41Z","body":"Can
+        you explain to me what purpose adding the request URL to the URLPATH array
+        does?"},{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5861764","html_url":"https://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca#commitcomment-5861764","id":5861764,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":24,"line":17,"path":"views/stats.erb","commit_id":"c911696e613dbe27abbce5b91be59a2bb0ba73ca","created_at":"2014-04-01T02:27:44Z","updated_at":"2014-04-01T02:27:44Z","body":"Could
+        you do this string concatenation in the \"controller\"/app so that if it needed
+        to change it would be easier to find where it happened?\r\n\r\nTypically you
+        want to do as little logic in the views and the format of the shortened URL
+        is definitely logic."},{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5861770","html_url":"https://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca#commitcomment-5861770","id":5861770,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":25,"line":20,"path":"app.rb","commit_id":"c911696e613dbe27abbce5b91be59a2bb0ba73ca","created_at":"2014-04-01T02:28:30Z","updated_at":"2014-04-01T02:28:30Z","body":"Moving
+        the string concatenation out of the stats view and into the controller means
+        you have to pass fewer things into the view...less is usually better. :smile:
+        "},{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5861781","html_url":"https://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca#commitcomment-5861781","id":5861781,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":8,"line":8,"path":"app.rb","commit_id":"c911696e613dbe27abbce5b91be59a2bb0ba73ca","created_at":"2014-04-01T02:30:31Z","updated_at":"2014-04-01T02:31:06Z","body":"@msgehard
+        It captures the URL Path at the time the homepage loads. This allowed us to
+        display the \"shortened\" URL accurately whether we were accessing the site
+        from our localhost, staging, or production. Is there a better way to do that?"},{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5862175","html_url":"https://github.com/gusk/url-shortener/commit/c911696e613dbe27abbce5b91be59a2bb0ba73ca#commitcomment-5862175","id":5862175,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":8,"line":8,"path":"app.rb","commit_id":"c911696e613dbe27abbce5b91be59a2bb0ba73ca","created_at":"2014-04-01T03:41:03Z","updated_at":"2014-04-01T03:41:03Z","body":"Gotcha.\r\n\r\n2
+        questions:\r\nDoes it need to be an array if you are only capturing it once?\r\nCould
+        you just ask for the host (http://rack.rubyforge.org/doc/classes/Rack/Request.html#M000261)
+        of the server each time you render the stats view?\r\n\r\nThis way I don''t
+        have to understand where this gets set."}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:02 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/d3679ece36c39d810c955cc72dcdcf76c7a4d0ad/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4960'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/d3679ece36c39d810c955cc72dcdcf76c7a4d0ad/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A02:74E1D1C:536BC83E
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - c046d59f93ede9ab52d5ac29f1ed70f7
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:02 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/f5feebdd5cbdfcdf78a442f02f0cddc8b3d3aadc/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4959'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"36974e156c29a1962ebd81e756642706"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A03:A1BEADA:536BC83F
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - c436b2b44345c72ff906059f604991e7
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5829568","html_url":"https://github.com/gusk/url-shortener/commit/f5feebdd5cbdfcdf78a442f02f0cddc8b3d3aadc#commitcomment-5829568","id":5829568,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":5,"line":5,"path":"Gemfile","commit_id":"f5feebdd5cbdfcdf78a442f02f0cddc8b3d3aadc","created_at":"2014-03-28T02:36:41Z","updated_at":"2014-03-28T02:36:41Z","body":"You
+        can put all of these in one group marked as both development and testing."}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:02 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/d45deb05cc7c6b184a13459df187082ed914532a/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4958'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/d45deb05cc7c6b184a13459df187082ed914532a/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A01:491B1A8:536BC83F
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - c436b2b44345c72ff906059f604991e7
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:03 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/fb44f0d14404c08f964548a5652daf93ccbd6532/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:03 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4957'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"2bf436d324306509817a880e5fb95932"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A03:A1BEBF7:536BC83F
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 132026e9262a0093e437f99db5f1e499
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5829574","html_url":"https://github.com/gusk/url-shortener/commit/fb44f0d14404c08f964548a5652daf93ccbd6532#commitcomment-5829574","id":5829574,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":17,"line":12,"path":"views/index.erb","commit_id":"fb44f0d14404c08f964548a5652daf93ccbd6532","created_at":"2014-03-28T02:38:45Z","updated_at":"2014-03-28T02:38:45Z","body":"I
+        don''t see a pure-button css class. Am I missing something?"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:03 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/022f4c186f8ce7faac97f7a2609ed406aaa3927a/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4956'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"8260c99d91f025c0a455a109f192cf1a"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A00:242D811:536BC840
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/gusk/url-shortener/comments/5874644","html_url":"https://github.com/gusk/url-shortener/commit/022f4c186f8ce7faac97f7a2609ed406aaa3927a#commitcomment-5874644","id":5874644,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"022f4c186f8ce7faac97f7a2609ed406aaa3927a","created_at":"2014-04-01T22:47:24Z","updated_at":"2014-04-01T22:47:24Z","body":"You
+        told me that this was a UI change to match comps in the summary but there
+        are code changes in the app.rb file.\r\n\r\nCould this be two commits or could
+        the summary be better?"}]'
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:03 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/71a0d7117a372653726fcfc8ca40aa55f3451da0/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4955'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/71a0d7117a372653726fcfc8ca40aa55f3451da0/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A02:74E1F34:536BC840
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 88d924ed861736d2749ce1a55766cb53
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:04 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/gusk/url-shortener/commits/ebad241f57cdf06c40c5986e7f9d56afe266718c/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 08 May 2014 18:09:04 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4954'
+      X-Ratelimit-Reset:
+      - '1399575590'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/18184489/commits/ebad241f57cdf06c40c5986e7f9d56afe266718c/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - AD0E15D1:2A00:242D86C:536BC840
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Thu, 08 May 2014 18:09:04 GMT
 recorded_with: VCR 2.9.0

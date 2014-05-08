@@ -11,7 +11,8 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken: "***********"
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -42,11 +43,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f35ebb7dad973edac3342b8109c228d9
+      - be5162b6789ac69c73dcc6846720688a
       X-Runtime:
-      - '0.079011'
+      - '0.076756'
       Date:
-      - Thu, 08 May 2014 15:31:49 GMT
+      - Thu, 08 May 2014 16:43:34 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -89,7 +90,7 @@ http_interactions:
               {
                 "kind": "comment",
                 "id": 68669490,
-                "text": "Commit by mikekauffman\nhttps://github.com/mikekauffman/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
                 "person_id": 1256926,
                 "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
                 "commit_type": "github",
@@ -105,7 +106,7 @@ http_interactions:
               {
                 "kind": "comment",
                 "id": 68671444,
-                "text": "Commit by mikekauffman\nhttps://github.com/mikekauffman/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
                 "person_id": 1256926,
                 "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
                 "commit_type": "github",
@@ -130,7 +131,7 @@ http_interactions:
               {
                 "kind": "comment",
                 "id": 68678454,
-                "text": "Commit by mikekauffman\nhttps://github.com/mikekauffman/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
                 "person_id": 1256926,
                 "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
                 "commit_type": "github",
@@ -166,5 +167,5 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 15:31:49 GMT
+  recorded_at: Thu, 08 May 2014 16:44:47 GMT
 recorded_with: VCR 2.9.0

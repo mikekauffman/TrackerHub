@@ -30,6 +30,9 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara', '~> 2.2.1'
   gem 'launchy', '~> 2.4.2'
+end
+
+group :test do
   gem 'vcr', '~> 2.9.0'
   gem 'webmock', '~> 1.17.4'
 end
