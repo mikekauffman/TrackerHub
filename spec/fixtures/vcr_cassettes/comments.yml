@@ -11,8 +11,7 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken:
-      - 965fa17681f52fb6db48d5aeb0a96689
+      X-Trackertoken: "***********"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -29,7 +28,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '21'
+      - '25'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -43,11 +42,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 90ba8884369c5ae842dd3cbdbbd8b968
+      - f35ebb7dad973edac3342b8109c228d9
       X-Runtime:
-      - '0.076309'
+      - '0.079011'
       Date:
-      - Wed, 07 May 2014 21:32:30 GMT
+      - Thu, 08 May 2014 15:31:49 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -167,5 +166,5 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Wed, 07 May 2014 21:32:29 GMT
+  recorded_at: Thu, 08 May 2014 15:31:49 GMT
 recorded_with: VCR 2.9.0

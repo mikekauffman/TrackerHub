@@ -3,15 +3,19 @@ File.read('.env').split("\n").each do |line|
   ENV[key] = value
 end
 
-# This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
 
 VCR.configure do |c|
+  c.allow_http_connections_when_no_cassette = true
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock
+  c.before_record do |i|
+    request = i.request
+    request.headers["X-Trackertoken"] = "***********"
+  end
 end
 
 # Requires supporting ruby files with custom matchers and macros, etc,

@@ -11,8 +11,7 @@ http_interactions:
       - Faraday v0.9.0
       Content-Type:
       - application/json
-      X-Trackertoken:
-      - 965fa17681f52fb6db48d5aeb0a96689
+      X-Trackertoken: "***********"
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -33,11 +32,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 075b40322a5cdef439f239c1dcbc2934
+      - b16aab21f79319c02c759883e1047792
       X-Runtime:
-      - '0.213975'
+      - '0.211749'
       Date:
-      - Wed, 07 May 2014 21:32:29 GMT
+      - Thu, 08 May 2014 15:31:48 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -57,7 +56,7 @@ http_interactions:
       string: !binary |-
         WwogIHsKICAgICJpZCI6IDEwNzUzNjYsCiAgICAia2luZCI6ICJwcm9qZWN0
         IiwKICAgICJuYW1lIjogIkRlaXRyaWNrIGFuZCBLYXVmZm1hbuKAmXMgVHJh
-        Y2tlckh1YiIsCiAgICAidmVyc2lvbiI6IDIxLAogICAgIml0ZXJhdGlvbl9s
+        Y2tlckh1YiIsCiAgICAidmVyc2lvbiI6IDI1LAogICAgIml0ZXJhdGlvbl9s
         ZW5ndGgiOiAxLAogICAgIndlZWtfc3RhcnRfZGF5IjogIk1vbmRheSIsCiAg
         ICAicG9pbnRfc2NhbGUiOiAiMCwxLDIsMyIsCiAgICAicG9pbnRfc2NhbGVf
         aXNfY3VzdG9tIjogZmFsc2UsCiAgICAiYnVnc19hbmRfY2hvcmVzX2FyZV9l
@@ -236,5 +235,5 @@ http_interactions:
         IDYyMjIyNCwKICAgICJjdXJyZW50X2l0ZXJhdGlvbl9udW1iZXIiOiA0LAog
         ICAgImVuYWJsZV9mb2xsb3dpbmciOiB0cnVlCiAgfQpd
     http_version: 
-  recorded_at: Wed, 07 May 2014 21:32:29 GMT
+  recorded_at: Thu, 08 May 2014 15:31:48 GMT
 recorded_with: VCR 2.9.0
