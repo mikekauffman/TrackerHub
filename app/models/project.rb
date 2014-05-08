@@ -5,19 +5,16 @@ class Project
   end
 
   def self.all
-    projects_response = pivotal_connection.get
-    JSON.parse (projects_response.body)
+    JSON.parse (pivotal_connection.get.body)
   end
 
   def fetch_stories
-    stories_response = Project.pivotal_connection.get ("#{@project_id}/stories")
-    JSON.parse (stories_response.body)
+    JSON.parse ((Project.pivotal_connection.get ("#{@project_id}/stories")).body)
   end
 
   def fetch_comments
-    comments_response = Project.pivotal_connection.get ("#{@project_id}/stories?fields=comments")
     comments = []
-    JSON.parse(comments_response.body).each do |story|
+    JSON.parse((Project.pivotal_connection.get("#{@project_id}/stories?fields=comments")).body).each do |story|
       story["comments"].each do |story_comments|
         comments << story_comments["text"]
       end
