@@ -5,8 +5,10 @@ class Github
   end
 
   def generate_api_urls
-    split_github_urls.map do |url_array|
-      "/repos/#{url_array[3]}/#{url_array[4]}/commits/#{url_array[6]}/comments"
+    if split_github_urls
+      split_github_urls.map do |url_array|
+        "/repos/#{url_array[3]}/#{url_array[4]}/commits/#{url_array[6]}/comments"
+      end
     end
   end
 

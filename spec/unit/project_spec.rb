@@ -22,14 +22,14 @@ describe Project do
   it 'should return an array of comments for a project' do
     VCR.use_cassette('comments') do
       comments = Project.fetch_comments(@project_id)
-      expect(comments.count).to eq 6
+      expect(comments.count).to eq 7
     end
   end
 
   it 'should return an array of github comments for an integrated project' do
     VCR.use_cassette('github_comments') do
       git_comments = Project.fetch_git_comments(@project_id)
-      expect(git_comments.length).to eq 3
+      expect(git_comments.length).to eq 6
     end
   end
 

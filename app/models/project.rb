@@ -34,12 +34,24 @@ class Project
   end
 
   def self.fetch_git_comments(project_id)
-    Github.new(fetch_comments(project_id)).generate_api_urls.each do |url|
-      @github_data = connection.get(url)
+    if Github.new(fetch_comments(project_id)).generate_api_urls
+    @request_comments_array = Github.new(fetch_comments(project_id)).generate_api_urls.map do |url|
+      JSON.parse(connection.get(url).body)
     end
-    JSON.parse(@github_data.body).map {|comment| comment["body"]}
+    @all_comments = []
+    @request_comments_array.each do |request_comments|
+      request_comments.each do |comment|
+        @all_comments << comment
+      end
+    end
+    @all_comments
+    else
+      [{"body" => "There are no github comments on this project"}]
+    end
   end
 
+
+  # each {|comment| @github_comments << comment["body"]}
   def self.connection
     Faraday.new(:url => "https://api.github.com") do |faraday|
       faraday.adapter(Faraday.default_adapter)

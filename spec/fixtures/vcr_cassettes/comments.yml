@@ -29,7 +29,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '25'
+      - '27'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -43,11 +43,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - be5162b6789ac69c73dcc6846720688a
+      - 2065cc022613a209c371a6be9faf5b5e
       X-Runtime:
-      - '0.076756'
+      - '0.031628'
       Date:
-      - Thu, 08 May 2014 16:43:34 GMT
+      - Thu, 08 May 2014 19:53:19 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -144,7 +144,17 @@ http_interactions:
           {
             "id": 70871146,
             "comments": [
-
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              }
             ]
           },
           {
@@ -167,5 +177,5 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:44:47 GMT
+  recorded_at: Thu, 08 May 2014 19:53:19 GMT
 recorded_with: VCR 2.9.0

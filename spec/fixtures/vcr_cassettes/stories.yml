@@ -29,7 +29,7 @@ http_interactions:
       Status:
       - 200 OK
       X-Tracker-Project-Version:
-      - '25'
+      - '27'
       X-Tracker-Pagination-Total:
       - '7'
       X-Tracker-Pagination-Offset:
@@ -43,11 +43,11 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 011aa556769333ebc8489d0f83fda437
+      - 8cb05d7b0ddc7ec534e21bdb8ebf5918
       X-Runtime:
-      - '0.087634'
+      - '0.034601'
       Date:
-      - Thu, 08 May 2014 16:44:47 GMT
+      - Thu, 08 May 2014 19:53:20 GMT
       X-Rack-Cache:
       - miss
       X-Powered-By:
@@ -136,12 +136,12 @@ http_interactions:
             "kind": "story",
             "id": 70871146,
             "created_at": "2014-05-06T07:00:00Z",
-            "updated_at": "2014-05-07T21:36:31Z",
+            "updated_at": "2014-05-08T19:11:32Z",
             "estimate": 2,
             "story_type": "feature",
             "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
             "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
-            "current_state": "started",
+            "current_state": "finished",
             "requested_by_id": 1256926,
             "project_id": 1075366,
             "url": "https://www.pivotaltracker.com/story/show/70871146",
@@ -215,5 +215,5 @@ http_interactions:
           }
         ]
     http_version: 
-  recorded_at: Thu, 08 May 2014 16:44:47 GMT
+  recorded_at: Thu, 08 May 2014 19:53:20 GMT
 recorded_with: VCR 2.9.0
