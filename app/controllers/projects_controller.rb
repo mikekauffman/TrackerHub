@@ -1,12 +1,12 @@
 class ProjectsController < ApplicationController
 
   def index
-    @json_data = Project.fetch_projects
+    @json_data = Project.all
   end
 
   def show
-    @project_data = Project.fetch_stories(params[:id])
-    @story_comments = Project.fetch_comments(params[:id])
-    @github_comments =  Project.fetch_git_comments(params[:id])
+    @project_data = Project.new(params[:id]).fetch_stories
+    @story_comments = Project.new(params[:id]).fetch_comments
+    @github_comments =  Project.new(params[:id]).fetch_git_comments
   end
 end

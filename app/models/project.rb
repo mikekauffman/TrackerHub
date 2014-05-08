@@ -1,21 +1,21 @@
 class Project
 
-  def self.fetch_projects
-    conn = Faraday.new
-    projects_response = conn.get 'https://www.pivotaltracker.com/services/v5/projects' do |request|
-      request.headers['Content-Type'] = 'application/json'
-      request.headers['X-TrackerToken'] = ENV['TRACKER_ID']
-    end
+  def initialize(project_id)
+    @project_id = project_id
+  end
+
+  def self.all
+    projects_response = pivotal_connection.get
     JSON.parse (projects_response.body)
   end
 
-  def self.fetch_stories(project_id)
-    stories_response = pivotal_connection.get ("#{project_id}/stories")
+  def fetch_stories
+    stories_response = Project.pivotal_connection.get ("#{@project_id}/stories")
     JSON.parse (stories_response.body)
   end
 
-  def self.fetch_comments(project_id)
-    comments_response = pivotal_connection.get ("#{project_id}/stories?fields=comments")
+  def fetch_comments
+    comments_response = Project.pivotal_connection.get ("#{@project_id}/stories?fields=comments")
     comments = []
     JSON.parse(comments_response.body).each do |story|
       story["comments"].each do |story_comments|
@@ -25,10 +25,10 @@ class Project
     comments
   end
 
-  def self.fetch_git_comments(project_id)
-    if Github.new(fetch_comments(project_id)).generate_api_urls
-    @request_comments_array = Github.new(fetch_comments(project_id)).generate_api_urls.map do |url|
-      JSON.parse(github_connection.get(url).body)
+  def fetch_git_comments
+    if Github.new(fetch_comments).generate_api_urls
+    @request_comments_array = Github.new(fetch_comments).generate_api_urls.map do |url|
+      JSON.parse(Project.github_connection.get(url).body)
     end
     @all_comments = []
     @request_comments_array.each do |request_comments|

@@ -3,7 +3,7 @@ require 'spec_helper'
 describe Github do
   before {
     VCR.use_cassette('github_comments') do
-      @tracker_comments = Project.fetch_comments(1075366)
+      @tracker_comments = Project.new(1075366).fetch_comments
       @github = Github.new(@tracker_comments)
     end
   }
