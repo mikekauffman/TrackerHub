@@ -8,13 +8,19 @@
 <h2>Tracker Comments</h2>
 <ul>
   <% @story_comments.each do |comment| %>
-      <li><%= comment %></li>
+      <% if comment.include?("Commit by") %>
+          <% comment_url_parse = Github.commit_comment_parse(comment) %>
+          <li><%= comment %> -
+            <a href="/projects/<%= params[:id] %>/repo/<%=comment_url_parse[3]%>/<%=comment_url_parse[4]%>/sha/<%=comment_url_parse[6]%>/comment">Add Comment</a></li>
+      <% else %>
+          <li><%= comment %></li>
+      <% end %>
   <% end %>
 </ul>
 <h2>GitHub Comments</h2>
 <ul>
   <% @github_comments.each do |comment| %>
-     <li><%= comment["body"] %></li>
+      <li><%= comment["body"] %></li>
   <% end %>
 </ul>
 

@@ -20,4 +20,14 @@ feature 'user can view all tracker projects' do
       expect(page).to have_content 'This is a test comment on what I would say is a very beautiful commit'
     end
   end
+
+  scenario 'user can add a comment to an existing commit' do
+    VCR.use_cassette('github_comment_post') do
+      visit '/projects/1075366'
+      page.first(:link, 'Add Comment').click
+      fill_in 'comment_text', with: 'Great job!'
+      click_on 'Save'
+      expect(page).to have_content 'Great job!'
+    end
+  end
 end

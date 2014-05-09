@@ -4,6 +4,17 @@ class Github
     @tracker_comments = tracker_comments
   end
 
+  def self.commit_comment_parse(comment)
+    split_comment = comment.split(" ")
+    split_url = []
+    split_comment.flatten.each do |comment|
+      if comment.include?('https://')
+        split_url << comment.split("/")
+      end
+    end
+    split_url[0]
+  end
+
   def generate_api_urls
     if split_github_urls
       split_github_urls.map do |url_array|

@@ -1,0 +1,2365 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7fe9b3b6dfd455bbc3f6993b5df18b1a
+      X-Runtime:
+      - '0.031892'
+      Date:
+      - Fri, 09 May 2014 00:01:26 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70871140,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:17:26Z",
+            "accepted_at": "2014-05-07T22:18:40Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871140",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871142,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:17:35Z",
+            "accepted_at": "2014-05-07T22:18:49Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871142",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871144,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:18:56Z",
+            "accepted_at": "2014-05-07T22:18:56Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871144",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871146,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:15:18Z",
+            "accepted_at": "2014-05-08T21:16:31Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871146",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871148,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T20:49:24Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "started",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871148",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871150,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T17:01:12Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871150",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70871152,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T17:01:12Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871152",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:26 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 37964367c284d831e9cd44ee8f512003
+      X-Runtime:
+      - '0.040741'
+      Date:
+      - Fri, 09 May 2014 00:01:26 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:26 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - afce3536488082e9756139d425b81a14
+      X-Runtime:
+      - '0.032298'
+      Date:
+      - Fri, 09 May 2014 00:00:13 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:27 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 53e14d9f916cd202e3c03dc479d9e74e
+      X-Runtime:
+      - '0.032555'
+      Date:
+      - Fri, 09 May 2014 00:00:14 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:27 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/31168775b60990b963a6bf2859670e60185f8176/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4920'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"8d9ff31b1d9c4a187526d27d388b7ede"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFE:AA20A66:536C1AD7
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - c046d59f93ede9ab52d5ac29f1ed70f7
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248056","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6248056","id":6248056,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-07T22:23:06Z","updated_at":"2014-05-07T22:23:06Z","body":"Please
+        unit test all API code using VCR."},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263507","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263507","id":6263507,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:00:10Z","updated_at":"2014-05-09T00:00:10Z","body":"Great
+        job!"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263511","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263511","id":6263511,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:00:24Z","updated_at":"2014-05-09T00:00:24Z","body":"you
+        rock!"}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:27 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/3ac224769cab65d597a545e5e184cfdbb41de693/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4919'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"014fa81f70e5e6a31408327a2bb716c8"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFE:AA20AF7:536C1AD7
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 03d91026ad8428f4d9966d7434f9d82e
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248058","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693#commitcomment-6248058","id":6248058,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":11,"line":12,"path":"app/models/tracker_search.rb","commit_id":"3ac224769cab65d597a545e5e184cfdbb41de693","created_at":"2014-05-07T22:23:24Z","updated_at":"2014-05-07T22:23:24Z","body":"Great
+        naming!"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248071","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693#commitcomment-6248071","id":6248071,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":13,"line":14,"path":"app/models/tracker_search.rb","commit_id":"3ac224769cab65d597a545e5e184cfdbb41de693","created_at":"2014-05-07T22:24:28Z","updated_at":"2014-05-07T22:24:28Z","body":"You
+        now have some duplication in this file. Is there a refactoring that you could
+        do to reduce the duplication?"}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:28 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4918'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"c9315ea0e3bb6e41fe1ef40d26ef73b4"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFC:4B78E87:536C1AD8
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6247765","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6247765","id":6247765,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T21:56:58Z","updated_at":"2014-05-07T21:56:58Z","body":"This
+        is a test comment on what I would say is a very beautiful commit"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248081","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6248081","id":6248081,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":8,"line":8,"path":"spec/unit/project_spec.rb","commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T22:25:44Z","updated_at":"2014-05-07T22:25:44Z","body":"Are
+        these tests added to backfill tests that were missing?"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248085","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6248085","id":6248085,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":2,"line":1,"path":"app/models/project.rb","commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T22:26:34Z","updated_at":"2014-05-07T22:26:34Z","body":"Can
+        you explain to me why you changed this to Project? TrackerSearch seemed a
+        bit more descriptive to me."}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:28 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/abbca6be66a1497d645618f64b8df063f6f48637/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:28 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4917'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547139/commits/abbca6be66a1497d645618f64b8df063f6f48637/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:2000:357C14E:536C1AD8
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 6d7de9e645814cac34ea2a8d72ba3141
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:28 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/0dead1a1213d3279d3e9080fa708a78d0094d0ba/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4916'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547139/commits/0dead1a1213d3279d3e9080fa708a78d0094d0ba/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFC:4B78F1D:536C1AD8
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 03d91026ad8428f4d9966d7434f9d82e
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:29 GMT
+- request:
+    method: post
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/31168775b60990b963a6bf2859670e60185f8176/comments
+    body:
+      encoding: UTF-8
+      string: '{"body":"Great job!"}'
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 201 Created
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4915'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"bd9cec8cca1f85b3476f180bade18a2f"'
+      Location:
+      - https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263521
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '1362'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFE:AA20D8B:536C1AD9
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+    body:
+      encoding: UTF-8
+      string: '{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263521","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263521","id":6263521,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:01:29Z","updated_at":"2014-05-09T00:01:29Z","body":"Great
+        job!"}'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:29 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 038643e099f5861849ba2ded9d779d36
+      X-Runtime:
+      - '0.038028'
+      Date:
+      - Fri, 09 May 2014 00:01:29 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70871140,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:17:26Z",
+            "accepted_at": "2014-05-07T22:18:40Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view all of my projects",
+            "description": "Given I'm on the homepage\nWhen I click on \"View Projects\"\nI see a list of all projects\n\n---\nUse your own API token. Make sure you don't commit it (dotenv-rails). (https://www.pivotaltracker.com/help/api#Basics)",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871140",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871142,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:17:35Z",
+            "accepted_at": "2014-05-07T22:18:49Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "As a user, I can view all of the stories for a project",
+            "description": "Given I'm go to the homepage\nWhen I click on a project\nI see a list of all of that projects stories",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871142",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871144,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T22:18:56Z",
+            "accepted_at": "2014-05-07T22:18:56Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can view Tracker comments for a project",
+            "description": "When I'm viewing a project\nThen I see all of the Tracker comments for that project across all stories\n",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871144",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871146,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T21:15:18Z",
+            "accepted_at": "2014-05-08T21:16:31Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can see the GitHub comments on a Tracker comment with a commit associated",
+            "description": "When I'm viewing a project\nAnd there is a comment that came from the GitHub integration\nThen I see the GitHub comments below the Tracker comment\n\n---\nYou must use basic authentication (https://developer.github.com/v3/#basic-authentication) for this otherwise we'll go over our rate limit (https://developer.github.com/v3/#rate-limiting) for GitHub.  ",
+            "current_state": "accepted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871146",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871148,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-08T20:49:24Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As a user, I can post a new GitHub comment for the a tracker commit comment (basic auth)",
+            "description": "Given I'm viewing a project\nAnd there is a commit comment\nWhen I click on \"Add Comment\"\nAnd I fill out the form\nThen I see my GitHub comment added to the commit in GitHub\nAnd displayed on the project page",
+            "current_state": "started",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871148",
+            "owner_ids": [
+              1256926
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256926
+          },
+          {
+            "kind": "story",
+            "id": 70871150,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T17:01:12Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "As a user, I can authenticate with GitHub",
+            "description": "When I visit the homepage\nAnd click on \"Log in with GitHub\"\nThen I'm logged in with github\nAnd I see my username in the nav bar\n\nPlease use omniauth gem!\nhttps://github.com/intridea/omniauth",
+            "current_state": "unstarted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871150",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70871152,
+            "created_at": "2014-05-06T07:00:00Z",
+            "updated_at": "2014-05-07T17:01:12Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "As an authenticated user, I can post a commit comment for my GitHub account",
+            "description": "Given I'm authenticated with GitHub\nAnd I'm viewing a project\nWhen I click on \"Add Comment\"\nAnd I fill out the Form\nThen I see my GitHub comment added to the commit created by my account\nAnd I see it on the project page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256926,
+            "project_id": 1075366,
+            "url": "https://www.pivotaltracker.com/story/show/70871152",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:29 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - db5df9bcfe19badeb3618f902823583d
+      X-Runtime:
+      - '0.035998'
+      Date:
+      - Fri, 09 May 2014 00:01:30 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:30 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d5ae2f5135161025ea185615988fb448
+      X-Runtime:
+      - '0.046952'
+      Date:
+      - Fri, 09 May 2014 00:01:30 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:30 GMT
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1075366/stories?fields=comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      X-Trackertoken:
+      - "<TRACKER_TOKEN>"
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '31'
+      X-Tracker-Pagination-Total:
+      - '7'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '7'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9e86bd924f3e913af932cf7395a7dc72
+      X-Runtime:
+      - '0.037402'
+      Date:
+      - Fri, 09 May 2014 00:01:30 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 70871140,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645328,
+                "text": "This is a test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68645330,
+                "text": "This is a second test comment on the first story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871140
+              },
+              {
+                "kind": "comment",
+                "id": 68669490,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176\n\n[#70871140] All projects are displayed when a user clicks view projects",
+                "person_id": 1256926,
+                "commit_identifier": "31168775b60990b963a6bf2859670e60185f8176",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:02:27Z",
+                "updated_at": "2014-05-07T20:02:27Z",
+                "story_id": 70871140
+              }
+            ]
+          },
+          {
+            "id": 70871142,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68671444,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693\n\n[#70871142] user can view all of the stories for a project",
+                "person_id": 1256926,
+                "commit_identifier": "3ac224769cab65d597a545e5e184cfdbb41de693",
+                "commit_type": "github",
+                "created_at": "2014-05-07T20:21:13Z",
+                "updated_at": "2014-05-07T20:21:13Z",
+                "story_id": 70871142
+              }
+            ]
+          },
+          {
+            "id": 70871144,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68645332,
+                "text": "This is a comment on the comment story",
+                "person_id": 534749,
+                "created_at": "2014-05-06T00:00:00Z",
+                "updated_at": "2014-05-07T17:01:12Z",
+                "story_id": 70871144
+              },
+              {
+                "kind": "comment",
+                "id": 68678454,
+                "text": "Commit by <GITHUB_USERNAME>\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353\n\n[#70871144] User can view all tracker comments for all stories in a project\n\nalso refactored code into unit tests",
+                "person_id": 1256926,
+                "commit_identifier": "ac3dbeb5aee6e031977f5e68ad351b59c8eb9353",
+                "commit_type": "github",
+                "created_at": "2014-05-07T21:17:16Z",
+                "updated_at": "2014-05-07T21:17:16Z",
+                "story_id": 70871144
+              }
+            ]
+          },
+          {
+            "id": 70871146,
+            "comments": [
+              {
+                "kind": "comment",
+                "id": 68774338,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/abbca6be66a1497d645618f64b8df063f6f48637\n\n[#70871146] User can see GitHub comments on Tracker-associated commits\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "abbca6be66a1497d645618f64b8df063f6f48637",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:11:47Z",
+                "updated_at": "2014-05-08T19:11:47Z",
+                "story_id": 70871146
+              },
+              {
+                "kind": "comment",
+                "id": 68779020,
+                "text": "Commit by Mike Kauffman\nhttps://github.com/<GITHUB_USERNAME>/TrackerHub/commit/0dead1a1213d3279d3e9080fa708a78d0094d0ba\n\n[#70871146] strengthened our github request methods to allow projects without any comments to display on page\n\nSigned-off-by: Andrew Deitrick <ajdeitrick@gmail.com>",
+                "person_id": 1256926,
+                "commit_identifier": "0dead1a1213d3279d3e9080fa708a78d0094d0ba",
+                "commit_type": "github",
+                "created_at": "2014-05-08T19:57:41Z",
+                "updated_at": "2014-05-08T19:57:41Z",
+                "story_id": 70871146
+              }
+            ]
+          },
+          {
+            "id": 70871148,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871150,
+            "comments": [
+
+            ]
+          },
+          {
+            "id": 70871152,
+            "comments": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:30 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/31168775b60990b963a6bf2859670e60185f8176/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:30 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4914'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"a6eff72b6c11edf83fa805b50a9c88f7"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFE:AA20FB3:536C1ADA
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a1d8c69b807c8e21f06cad9da377d1b0
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248056","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6248056","id":6248056,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-07T22:23:06Z","updated_at":"2014-05-07T22:23:06Z","body":"Please
+        unit test all API code using VCR."},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263507","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263507","id":6263507,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:00:10Z","updated_at":"2014-05-09T00:00:10Z","body":"Great
+        job!"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263511","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263511","id":6263511,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:00:24Z","updated_at":"2014-05-09T00:00:24Z","body":"you
+        rock!"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6263521","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/31168775b60990b963a6bf2859670e60185f8176#commitcomment-6263521","id":6263521,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"31168775b60990b963a6bf2859670e60185f8176","created_at":"2014-05-09T00:01:29Z","updated_at":"2014-05-09T00:01:29Z","body":"Great
+        job!"}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:30 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/3ac224769cab65d597a545e5e184cfdbb41de693/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4913'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"014fa81f70e5e6a31408327a2bb716c8"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFC:4B79187:536C1ADB
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 62a1303ae95931e56e387e87d354bb24
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248058","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693#commitcomment-6248058","id":6248058,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":11,"line":12,"path":"app/models/tracker_search.rb","commit_id":"3ac224769cab65d597a545e5e184cfdbb41de693","created_at":"2014-05-07T22:23:24Z","updated_at":"2014-05-07T22:23:24Z","body":"Great
+        naming!"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248071","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693#commitcomment-6248071","id":6248071,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":13,"line":14,"path":"app/models/tracker_search.rb","commit_id":"3ac224769cab65d597a545e5e184cfdbb41de693","created_at":"2014-05-07T22:24:28Z","updated_at":"2014-05-07T22:24:28Z","body":"You
+        now have some duplication in this file. Is there a refactoring that you could
+        do to reduce the duplication?"}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:31 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4912'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"c9315ea0e3bb6e41fe1ef40d26ef73b4"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:2000:357C336:536C1ADB
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - d818ddef80f4c7d10683dd483558952a
+    body:
+      encoding: UTF-8
+      string: '[{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6247765","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6247765","id":6247765,"user":{"login":"<GITHUB_USERNAME>","id":6401598,"avatar_url":"https://avatars.githubusercontent.com/u/6401598?","gravatar_id":"879ac8025eccc1eabacf43c456414911","url":"https://api.github.com/users/<GITHUB_USERNAME>","html_url":"https://github.com/<GITHUB_USERNAME>","followers_url":"https://api.github.com/users/<GITHUB_USERNAME>/followers","following_url":"https://api.github.com/users/<GITHUB_USERNAME>/following{/other_user}","gists_url":"https://api.github.com/users/<GITHUB_USERNAME>/gists{/gist_id}","starred_url":"https://api.github.com/users/<GITHUB_USERNAME>/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/<GITHUB_USERNAME>/subscriptions","organizations_url":"https://api.github.com/users/<GITHUB_USERNAME>/orgs","repos_url":"https://api.github.com/users/<GITHUB_USERNAME>/repos","events_url":"https://api.github.com/users/<GITHUB_USERNAME>/events{/privacy}","received_events_url":"https://api.github.com/users/<GITHUB_USERNAME>/received_events","type":"User","site_admin":false},"position":null,"line":null,"path":null,"commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T21:56:58Z","updated_at":"2014-05-07T21:56:58Z","body":"This
+        is a test comment on what I would say is a very beautiful commit"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248081","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6248081","id":6248081,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":8,"line":8,"path":"spec/unit/project_spec.rb","commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T22:25:44Z","updated_at":"2014-05-07T22:25:44Z","body":"Are
+        these tests added to backfill tests that were missing?"},{"url":"https://api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/comments/6248085","html_url":"https://github.com/<GITHUB_USERNAME>/TrackerHub/commit/ac3dbeb5aee6e031977f5e68ad351b59c8eb9353#commitcomment-6248085","id":6248085,"user":{"login":"msgehard","id":128210,"avatar_url":"https://avatars.githubusercontent.com/u/128210?","gravatar_id":"b09d62315dbafc471538dd71d404ad48","url":"https://api.github.com/users/msgehard","html_url":"https://github.com/msgehard","followers_url":"https://api.github.com/users/msgehard/followers","following_url":"https://api.github.com/users/msgehard/following{/other_user}","gists_url":"https://api.github.com/users/msgehard/gists{/gist_id}","starred_url":"https://api.github.com/users/msgehard/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/msgehard/subscriptions","organizations_url":"https://api.github.com/users/msgehard/orgs","repos_url":"https://api.github.com/users/msgehard/repos","events_url":"https://api.github.com/users/msgehard/events{/privacy}","received_events_url":"https://api.github.com/users/msgehard/received_events","type":"User","site_admin":false},"position":2,"line":1,"path":"app/models/project.rb","commit_id":"ac3dbeb5aee6e031977f5e68ad351b59c8eb9353","created_at":"2014-05-07T22:26:34Z","updated_at":"2014-05-07T22:26:34Z","body":"Can
+        you explain to me why you changed this to Project? TrackerSearch seemed a
+        bit more descriptive to me."}]'
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:31 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/abbca6be66a1497d645618f64b8df063f6f48637/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4911'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547139/commits/abbca6be66a1497d645618f64b8df063f6f48637/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFE:AA21142:536C1ADB
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 03d91026ad8428f4d9966d7434f9d82e
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:31 GMT
+- request:
+    method: get
+    uri: https://<GITHUB_USERNAME>:Mike%241234@api.github.com/repos/<GITHUB_USERNAME>/TrackerHub/commits/0dead1a1213d3279d3e9080fa708a78d0094d0ba/comments
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 09 May 2014 00:01:32 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4910'
+      X-Ratelimit-Reset:
+      - '1399593718'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Etag:
+      - '"82a1aa70d1342a93ddaba5358c2bb44f"'
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3
+      Link:
+      - <https://api.github.com/repositories/19547139/commits/0dead1a1213d3279d3e9080fa708a78d0094d0ba/comments?page=0>;
+        rel="last"
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Content-Length:
+      - '2'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 62F5790B:1FFD:7A99FCD:536C1ADC
+      Strict-Transport-Security:
+      - max-age=31536000
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: "[]"
+    http_version: 
+  recorded_at: Fri, 09 May 2014 00:01:32 GMT
+recorded_with: VCR 2.9.0

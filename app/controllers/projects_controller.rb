@@ -9,4 +9,12 @@ class ProjectsController < ApplicationController
     @story_comments = Project.new(params[:id]).fetch_comments
     @github_comments =  Project.new(params[:id]).fetch_git_comments
   end
+
+  def add_comment
+  end
+
+  def create
+    Project.post_git_comment(params[:owner], params[:repo_name], params[:sha_id], params[:comment_text])
+    redirect_to "/projects/#{params[:id]}"
+  end
 end

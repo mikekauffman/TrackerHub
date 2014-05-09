@@ -22,4 +22,9 @@ describe Github do
     expect(formatted_urls.first).to eq '/repos/mikekauffman/TrackerHub/commits/31168775b60990b963a6bf2859670e60185f8176/comments'
   end
 
+  it 'should return an array of the repo, owner, and sha for a github comment' do
+    comment = Github.commit_comment_parse("Commit by mikekauffman https://github.com/mikekauffman/TrackerHub/commit/3ac224769cab65d597a545e5e184cfdbb41de693 [#70871142] user can view all of the stories for a project")
+    expect(comment.length).to eq 7
+  end
+
 end

@@ -37,6 +37,13 @@ class Project
     end
   end
 
+  def self.post_git_comment(owner, repo, sha, comment)
+    body = {
+      body: comment.to_s
+    }
+    JSON.parse(github_connection.post("repos/#{owner}/#{repo}/commits/#{sha}/comments", body.to_json).body)
+  end
+
   def self.pivotal_connection
     Faraday.new(:url => "https://www.pivotaltracker.com/services/v5/projects") do |faraday|
       faraday.adapter(Faraday.default_adapter)
